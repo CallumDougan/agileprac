@@ -8,7 +8,7 @@ Board.prototype = {
   generateSquares: function(){
     var allSquares = [];
     var gSquare = 0;
-    for(i=0; i <10; i++){
+    for(i=0; i <1000; i++){
       gSquare = new Square(i);
       allSquares.push(gSquare);
     }
