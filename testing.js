@@ -3,6 +3,9 @@ var assert = chai.assert;
 var expect = chai.expect;
 var _ = require('lodash');
 
+require('lodash');
+
+
 
 var person = require('./person');
 
@@ -16,3 +19,4 @@ describe('person', function(){
     expect(2).to.equal(person.currentGame)
   })
 })
+
