@@ -5,5 +5,13 @@ var Person = function(name, email, password, avatar){
   this.avatar = avatar;
 
 
+
+}
+
+Person.prototype = {
+
+rollDice: function(){
   
+}
+
 }
