@@ -5,21 +5,15 @@ var Person = function(name, email, password, avatar){
   this.email = email;
   this.password = password;
   this.avatar = avatar;
-
-
-
-}
+};
 
 Person.prototype = {
-
 rollDice: function(){
   return _.random(1, 6);
 },
-
 }
 
 var person = new Person('barry', 'barry@barry.com', 'password', 'avatar.com/avatar.png');
 
-
-module.export = person;
+module.exports = person;
 console.log(person.rollDice())
