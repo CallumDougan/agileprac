@@ -29,9 +29,8 @@ var Square = function(num){
 Square.prototype = {
 }
 
-module.exports = Board;
-
-
 testBoard = new Board();
 testBoard.generateSquares();
-console.log(testBoard);
+console.log(testBoard.squares.length);
+
+module.exports = testBoard

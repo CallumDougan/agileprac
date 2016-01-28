@@ -20,4 +20,4 @@ Person.prototype = {
 var person = new Person('barry', 'barry@barry.com', 'password', 'avatar.com/avatar.png');
 
 module.exports = person;
-console.log(person.rollDice())
+console.log(person.rollDice());
